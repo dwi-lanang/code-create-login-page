@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Fundamental - Code Create Login Page</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="//dwilanang.github.io/code-fundamental/imgs/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="//dwilanang.github.io/code-fundamental/imgs/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="//dwilanang.github.io/code-fundamental/imgs/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="//dwilanang.github.io/code-fundamental/imgs/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="//dwilanang.github.io/code-fundamental/imgs/icon/favicon-16x16.png">
+	<link rel="manifest" href="imgs/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="//dwilanang.github.io/code-fundamental/imgs/icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="Belajar dan berbagi pemrograman web" name="description">
+	<meta content="bootstrap,google,material,design,code,layout,fundamental,belajar,berbagi,web,aplikasi,application,php,javascript" name="keywords">
+	<meta content="dwilanang" name="author">
+	<meta property="og:title" content="Code Fundamental"/>
+	<meta property="og:image" content="http://dwilanang.github.io/code-fundamental/imgs/logo.png"/>
+	<meta property="og:description" content="Belajar dan berbagi pemrograman web"/>
+	<meta property="og:site_name" content="Toyota Connect" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dwilanank" />
+    <meta name="twitter:creator" content="@dwilanank" />
+    <meta name="twitter:title" content="Code Fundamental" />
+    <meta name="twitter:description" content="Belajar dan berbagi pemrograman web" />
+    <meta name="twitter:image:src" content="http://dwilanang.github.io/code-fundamental/imgs/logo.png" />
+    <!-- Twitter Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design for Bootstrap -->
+    <link href="//dwilanang.github.io/code-fundamental/dist/css/roboto.min.css" rel="stylesheet">
+    <link href="//dwilanang.github.io/code-fundamental/dist/css/material-fullpalette.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+  </head>
+  <body style="background:#fff;" id="body">
+	<div class="navbar navbar-info">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="http://dwilanang.github.io/code-fundamental/">{CODE}</a>
+		</div>
+		<div class="navbar-collapse collapse navbar-inverse-collapse">
+			<ul class="nav navbar-nav pull-right">
+				<li><a href="http://facebook.com/codefundamental" target="_blank"><img src="//dwilanang.github.io/code-fundamental/imgs/facebook_share.png" /></a></li>
+				<li><a href="https://plus.google.com/u/0/100286844289144512774" target="_blank"><img src="//dwilanang.github.io/code-fundamental/imgs/google_share.png" /></a></li>
+			</ul>
+		</div>
+	</div>    
+    
+<!-- HEADER 
+=================================-->
+
+<!-- /header container-->
+
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<a href="https://github.com/dwilanang/code-create-login-page/archive/master.zip" target="_blank" class="btn btn-flat btn-link text-info pull-left">
+					<span>DOWNLOAD</span>
+				</a>
+				<a target="_blank" class="btn btn-flat btn-link text-info pull-left" data-toggle="modal" data-target=".bs-example-modal-lg">
+					<span>VIDEO</span>
+				</a>
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="javascript:void(0)" onclick="share('http://www.facebook.com/share.php?u')"><img src="//dwilanang.github.io/code-fundamental/imgs/facebook_share.png" /> Share on Facebook</a></li>
+					<li><a href="javascript:void(0)" onclick="share('https://twitter.com/intent/tweet?text=code-fundamental-code-started&url')"><img src="//dwilanang.github.io/code-fundamental/imgs/twitter_share.png" /> Share on Twitter</a></li>
+					<li><a href="javascript:void(0)" onclick="share('https://plus.google.com/share?url')"><img src="//dwilanang.github.io/code-fundamental/imgs/google_share.png" /> Share on Google</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<iframe width="100%" height="400" src="https://www.youtube.com/embed/JMYANnnLYZM?list=PLWYQriUk9Y0dN8ehxAjzL4d3nZXR3YDxl" frameborder="0" ></iframe>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-info">
+				<div class="panel-heading" role="tab" id="accordion">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#step0" aria-expanded="true" aria-controls="Step0">
+						1. Started
+					</a>
+				  </h4>
+				</div>
+				<div id="step0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<ul>
+							<li>
+								Jalankan xampp controll
+							</li>
+							<li>
+								<img src="imgs/controll-xampp.jpg" class="img-thumbnail" />
+							</li>
+							<li>
+								Download <a href="https://github.com/dwilanang/code-started/archive/master.zip">Code Started</a>
+							</li>
+							<li>
+								Buka browser kemudian ketik pada url http://localhost/webku/index.php
+							</li>
+							<li>
+								<img src="imgs/code-started.gif" class="img-thumbnail" />
+							</li>
+							<li>
+								Buka tab baru pada browser kemudian ketik pada url http://localhost/phpmyadmin untuk membuat table dari databse yang telah dibuat pada <a target="_blank" href="dwilanang.gihub.io/code-started">code started</a>
+							</li>
+							<li>Pilih database yang telah dibuat kemudian copy perintah query dibawah ke panel sql pada database yang telah dibuat pada phpmyadmin
+								<pre>
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+/*Data for the table `users` */
+
+insert  into `users`(`id`,`name`,`username`,`password`) values (1,'admin','admin','admin'),(2,'admin 2','admin2','admin');
+								</pre>
+							</li>
+
+						</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading" role="tab" id="accordion">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#step1" aria-expanded="true" aria-controls="Step1">
+						1. Form Login
+					</a>
+				  </h4>
+				</div>
+				<div id="step1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<ul>
+							<li>
+								Buat file baru login.html kemudian masukan code html dibawah
+							
+								<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;Belajar Membauat Halaman Login&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;Login&lt;/h1&gt;
+		&lt;form method=&quot;post&quot; action=&quot;&quot;&gt;
+			&lt;label&gt;Username :&lt;/label&gt;
+			&lt;input type=&quot;text&quot; name=&quot;f_username&quot; /&gt;
+			&lt;label&gt;Password :&lt;/label&gt;
+			&lt;input type=&quot;password&quot; name=&quot;f_password&quot; /&gt;
+			&lt;input type=&quot;submit&quot; value=&quot;Submit&quot; name=&quot;submit&quot; /&gt;
+		&lt;/form&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+								</pre>
+							</li>
+							<li>
+								Buat file baru login.php kemudian isikan seperti dibawah
+								<pre>
+&lt;?php 
+		//cek fungsi form pakah telah mengarah ke halaman ini atau tidak?
+		//print_r($_POST); 
+		//cek apakah field username dan password telah diisi atau tidak?
+		
+		if(!isset($_POST['f_username']) AND !isset($_POST['f_password']))
+		{
+			header('location:index.php');
+			exit;
+		}
+		$username = $_POST['f_username'];
+		$password = $_POST['f_password'];
+		if($username AND $password) //jika diisi
+		{
+			//echo &quot;field terisi&quot;;
+		}
+		else //jika tidak diisi
+		{
+			echo &quot;field kosong&quot;;
+		}
+	}
+?&gt;
+								</pre>
+							</li>
+						</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading" role="tab" id="accordion">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#step2" aria-expanded="true" aria-controls="Step2">
+						2. Koneksian ke Database
+					</a>
+				  </h4>
+				</div>
+				<div id="step2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<ul>
+							<li>
+								Tambahkan perintah pada login.php untuk koneksi ke database seperti dibawah
+								<pre>
+&lt;?php 
+		//koneksikan ke database
+		include &quot;koneksi.php&quot;;
+
+		//cek fungsi form pakah telah mengarah ke halaman ini atau tidak?
+		//print_r($_POST); 
+		//cek apakah field username dan password telah diisi atau tidak?
+		
+		if(!isset($_POST['f_username']) AND !isset($_POST['f_password']))
+		{
+			header('location:index.php');
+			exit;
+		}
+		$username = $_POST['f_username'];
+		$password = $_POST['f_password'];
+		if($username AND $password) //jika diisi
+		{
+			//echo &quot;field terisi&quot;;
+		}
+		else //jika tidak diisi
+		{
+			echo &quot;field kosong&quot;;
+		}
+	}
+?&gt;
+								</pre>
+							</li>
+							<li>
+								Tambahkan perintah query pada login.php
+								<pre>						
+&lt;?php 
+
+		//koneksikan ke database
+		include &quot;koneksi.php&quot;;
+		//cek fungsi form pakah telah mengarah ke halaman ini atau tidak?
+		//print_r($_POST); 
+		//cek apakah field username dan password telah diisi atau tidak?
+		
+		if(!isset($_POST['f_username']) AND !isset($_POST['f_password']))
+		{
+			header('location:index.php');
+			exit;
+		}
+		$username = $_POST['f_username'];
+		$password = $_POST['f_password'];
+		if($username AND $password) //jika diisi
+		{
+			//echo &quot;field terisi&quot;;
+			//query cek nilai dari field username dan password, apakah sama atau tidak dengan yang diinputkan?
+			$SQL = &quot;SELECT * FROM users WHERE username='&quot;. $username .&quot;' AND password='&quot;. $password .&quot;'&quot;; 
+			//test query pada phpmyadmin
+			//echo $SQL;
+			$RESULT = mysql_query($SQL);
+			$ROW = mysql_fetch_assoc($RESULT);
+			
+			//print_r($ROW);
+			$jumlah_baris = mysql_num_rows($RESULT);
+			//echo $jumlah_baris;
+			//cek apakah data ditemukan atau tidak
+			if($jumlah_baris &gt; 0) //jika ditemukan
+			{
+				//echo &quot;Login berhasil.&quot;;
+			}
+			else //jika tidak
+			{
+				echo &quot;Login gagal&quot;;
+			}
+		}
+		else //jika tidak diisi
+		{
+			echo &quot;field kosong&quot;;
+		}
+
+?&gt;
+								</pre>
+							</li>
+						</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading" role="tab" id="accordion">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#step3" aria-expanded="true" aria-controls="Step3">
+						3. Session dan Logout
+					</a>
+				  </h4>
+				</div>
+				<div id="step3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				  <div class="panel-body">
+						<ul>
+							<li>
+								Tmbahkan perintah pada login.php pada bagian paling atas dibawah pembuka sintax php, kemudian menyimpan hasil query pada variable session
+								<pre>
+&lt;?php 
+
+		//koneksikan ke database
+		include &quot;koneksi.php&quot;;
+		//cek fungsi form pakah telah mengarah ke halaman ini atau tidak?
+		//print_r($_POST); 
+		//cek apakah field username dan password telah diisi atau tidak?
+		
+		if(!isset($_POST['f_username']) AND !isset($_POST['f_password']))
+		{
+			header('location:index.php');
+			exit;
+		}
+		$username = $_POST['f_username'];
+		$password = $_POST['f_password'];
+		if($username AND $password) //jika diisi
+		{
+			//echo &quot;field terisi&quot;;
+			//query cek nilai dari field username dan password, apakah sama atau tidak dengan yang diinputkan?
+			$SQL = &quot;SELECT * FROM users WHERE username='&quot;. $username .&quot;' AND password='&quot;. $password .&quot;'&quot;; 
+			//test query pada phpmyadmin
+			//echo $SQL;
+			$RESULT = mysql_query($SQL);
+			$ROW = mysql_fetch_assoc($RESULT);
+			
+			//print_r($ROW);
+			$jumlah_baris = mysql_num_rows($RESULT);
+			//echo $jumlah_baris;
+			//cek apakah data ditemukan atau tidak
+			if($jumlah_baris &gt; 0) //jika ditemukan
+			{
+				//echo &quot;Login berhasil.&quot;;
+				//simpan hasil record data pada session untuk dicek apakah telah login atau belum.
+				$_SESSION['user'] = $ROW;
+				//arahkan url kembali ke index.php untuk membedakan telah login atau belum.
+				header('location:index.php');
+			}
+			else //jika tidak
+			{
+				echo &quot;Login gagal&quot;;
+			}
+		}
+		else //jika tidak diisi
+		{
+			echo &quot;field kosong&quot;;
+		}
+?&gt;
+								</pre>
+							</li>
+							<li>
+								Buat file baru untuk halaman home saat berhasil login.
+								<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;Halaman Home&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;Home&lt;/h1&gt;
+		&lt;h2&gt;Selamat Datang &lt;?php echo $user['name']; ?&gt;&lt;/h2&gt;
+		&lt;a href=&quot;login.php?act=logout&quot;&gt;Logout&lt;/a&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+								</pre>
+							</li>
+							<li>
+								Tampilkan halaman home.html melalui index.php dengan cara include file, pada index.php dicek apakah telah login atau belum. jikal telah login maka akan menampilkan halaman home.html jika belum maka akan menampilkan halaman login.html
+								<pre>
+&lt;?php
+	session_start();
+	//jika telah login
+	if(isset($_SESSION[&#39;user&#39;]))
+	{
+		//print_r($_SESSION[&#39;user&#39;]);
+		//simpan hasil session pada variable
+		$user = $_SESSION[&#39;user&#39;];
+		//hasil setelah login.
+		//echo &quot;Selamat datang &lt;b&gt;&quot;. $user[&#39;name&#39;] .&quot;&lt;/b&gt;&quot;;
+		//menampilkan hasil setelah login pada halaman lain
+		include &quot;home.html&quot;;
+	}
+	else //jika belum
+	{
+		include &quot;login.html&quot;;
+	}
+?&gt;
+								</pre>
+							</li>
+							<li>
+								Membuat perintah logout
+							</li>
+							<li>
+								Tambahkan perintah untuk menghapus session saat tombol logout diklik
+								<pre>
+&lt;?php 
+	session_start();
+	//cek apakah index act ada atau tidak
+	if(isset($_GET['act']))
+	{
+		//cek jika permintaan act = logout
+		if($_GET['act'] == &quot;logout&quot;)
+		{
+			//menghapus session
+			unset($_SESSION['user']);
+			header(&quot;location:index.php&quot;);
+		}
+	}
+	else
+	{
+		//koneksikan ke database
+		include &quot;koneksi.php&quot;;
+		//cek fungsi form pakah telah mengarah ke halaman ini atau tidak?
+		//print_r($_POST); 
+		//cek apakah field username dan password telah diisi atau tidak?
+		
+		if(!isset($_POST['f_username']) AND !isset($_POST['f_password']))
+		{
+			header('location:index.php');
+			exit;
+		}
+		$username = $_POST['f_username'];
+		$password = $_POST['f_password'];
+		if($username AND $password) //jika diisi
+		{
+			//echo &quot;field terisi&quot;;
+			//query cek nilai dari field username dan password, apakah sama atau tidak dengan yang diinputkan?
+			$SQL = &quot;SELECT * FROM users WHERE username='&quot;. $username .&quot;' AND password='&quot;. $password .&quot;'&quot;; 
+			//test query pada phpmyadmin
+			//echo $SQL;
+			$RESULT = mysql_query($SQL);
+			$ROW = mysql_fetch_assoc($RESULT);
+			
+			//print_r($ROW);
+			$jumlah_baris = mysql_num_rows($RESULT);
+			//echo $jumlah_baris;
+			//cek apakah data ditemukan atau tidak
+			if($jumlah_baris &gt; 0) //jika ditemukan
+			{
+				//echo &quot;Login berhasil.&quot;;
+				//simpan hasil record data pada session untuk dicek apakah telah login atau belum.
+				$_SESSION['user'] = $ROW;
+				//arahkan url kembali ke index.php untuk membedakan telah login atau belum.
+				header('location:index.php');
+			}
+			else //jika tidak
+			{
+				echo &quot;Login gagal&quot;;
+			}
+		}
+		else //jika tidak diisi
+		{
+			echo &quot;field kosong&quot;;
+		}
+	}
+?&gt;gt;
+								</pre>
+							</li>
+						</ul>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+		<p class="clearfix">
+			<div id="disqus_thread"></div>	
+		</p>
+	
+	<hr/>
+	<a href="#body" class="btn btn-default pull-right">Back to Top</a>
+     <!-- Twitter Bootstrap -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Material Design for Bootstrap -->
+    <script src="//dwilanang.github.io/code-fundamental/dist/js/material.min.js"></script>
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES * * */
+		var disqus_shortname = 'codefundamental';
+		
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<script>
+		function share(url){
+			window.open(url +"="+ document.URL,'Social Share', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=500,width=500');
+			return false;   
+		}
+		$.material.init();
+   
+		var activeid="UA-62808390-1";
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', activeid]);
+		_gaq.push(['_trackPageview']);
+
+		(function() { 
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		_gaq.push(['_trackPageview', window.location.pathname + window.location.search  + window.location.hash]);
+	
+	</script>
+  </body>
+</html>
